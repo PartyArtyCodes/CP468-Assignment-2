@@ -1,0 +1,15 @@
+{
+    "dataset": "GEM/wiki_lingua",
+    "configuration": "en",
+    "license": "CC BY-NC-SA 3.0",
+    "random_seed": 42,
+    "minimum_article_words": 50,
+    "maximum_article_words": 300,
+    "minimum_summary_words": 5,
+    "maximum_summary_words": 60,
+    "split_sizes": {
+        "train": 20000,
+        "validation": 1000,
+        "test": 500
+    }
+}

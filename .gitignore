@@ -1,18 +1,12 @@
-# Python environment
 .venv/
-
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# Generated datasets
 data/processed/*.jsonl
 
-# Trained models
 models/
 *.pt
 *.pth
 
-# Environment variables and API keys
 .env
