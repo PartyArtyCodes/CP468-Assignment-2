@@ -1,0 +1,42 @@
+{
+  "device": "cpu",
+  "gpu": null,
+  "trainable_parameters": 18524281,
+  "total_training_time_seconds": 5806.849746227264,
+  "best_val_loss": 5.850085496902466,
+  "rouge_validation": {
+    "rouge1": 0.1358322465387253,
+    "rouge2": 0.0087057292784193,
+    "rougeL": 0.13188663625833968
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.531535021866424,
+      "val_loss": 6.109397649765015,
+      "seconds": 1650.9730639457703
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.874546322641494,
+      "val_loss": 5.978896975517273,
+      "seconds": 2003.5839567184448
+    },
+    {
+      "epoch": 3,
+      "train_loss": 5.62160482285898,
+      "val_loss": 5.850085496902466,
+      "seconds": 2151.656275033951
+    }
+  ],
+  "hyperparameters": {
+    "emb_dim": 128,
+    "hidden_dim": 256,
+    "dropout": 0.3,
+    "batch_size": 256,
+    "n_epochs": 3,
+    "learning_rate": 0.001,
+    "teacher_forcing_ratio": 0.5,
+    "seed": 42
+  }
+}

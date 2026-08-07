@@ -1,0 +1,43 @@
+{
+    "split_counts": {
+        "train": 20000,
+        "validation": 1000,
+        "test": 500
+    },
+    "split_overlaps": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    },
+    "oov_results": {
+        "validation": {
+            "article": {
+                "total_tokens": 227578,
+                "unknown_tokens": 2490,
+                "oov_rate": 0.010941303640949477
+            },
+            "summary": {
+                "total_tokens": 30290,
+                "unknown_tokens": 770,
+                "oov_rate": 0.025420931000330143
+            }
+        },
+        "test": {
+            "article": {
+                "total_tokens": 111724,
+                "unknown_tokens": 1189,
+                "oov_rate": 0.010642297089255666
+            },
+            "summary": {
+                "total_tokens": 15078,
+                "unknown_tokens": 363,
+                "oov_rate": 0.024074810982888977
+            }
+        }
+    },
+    "sha256": {
+        "train": "07c068ce056eefb1b5581ab25a8afc4cf33d06dae7f7c74ebfa67392105929e3",
+        "validation": "2bf087a51f06d1d2126508fc6848c5c5ac895131cdee22b8e6a07833a8dc138f",
+        "test": "b76000332f2b4afe25a9b3cd7e5b0112dab1be3a0549630b54cbda6175c5e295"
+    }
+}
