@@ -40,16 +40,16 @@ FEW_SHOT_EXAMPLES = [
     # TODO: replace these with 3-5 real (article, summary) pairs taken from
     # your TRAIN split (never from validation/test, to avoid leakage).
     {
-        "article": "PLACEHOLDER_TRAIN_ARTICLE_1",
-        "summary": "PLACEHOLDER_TRAIN_SUMMARY_1",
+        "article": """Go online to Pixar news sources, such as http://www.pixarpost.com/ and https://pixarplanet.com. These websites typically post about different charitable auction opportunities that happen from time to time. The purpose of these is to raise money for different organizations, such as the LA Food Bank or the Singing Stones School. Follow the directions on the website in order to place your bid, as you may get a tour if you have the highest one. While this is a good way to get a tour, it can be extremely expensive. Another way that Pixar uses charity fundraising to offer tours is by temporarily giving the public an opportunity to buy touring tickets, usually just before a film premier. Check out https://www.charitybuzz.com/ to see if any charity ticket opportunities have been posted. This is another pricey option. For example, tickets for a charity event in 2011 that included a black tie dinner, a screening, and an exclusive tour were $1,000 USD each. While it may be harder to get a tour by winning a contest, it's a great option to pursue if you don't have any personal connections and you also don't want to spend a lot of money. Check out https://pixarplanet.com/blog/category/competition/ regularly to see what contests are posted. Contest entry requirements range in difficulty from answering a prompt with a short essay response to creating a trailer for a film. The prizes also vary, from special edition Blu-Ray disc sets to tours of the studio.""",
+        "summary": "Participate in charitable auctions that are posted online. Purchase tour tickets for special charity events. Participate in contests that are posted online.",
+    },
+        {
+        "article": """These shorts should have an elastic band. The length can range from your mid-thigh down to your knees. These are often branded as athletic shorts. Basketball shorts, running shorts, and soccer shorts are good options. For women playing sports, it is essential that you wear a sports bra underneath your shirt instead of a normal bra. These tight, polyester bras will allow you to run around without interference or injury. Short-sleeved shirts or sleeveless tank tops are good for volleyball because they allow a full range of motion while keeping you cool. Compression shirts, sweat-proof athletic tops, and mesh jerseys are all good options as well. Choose a cotton or polyester blend. Make sure that you can fully move your arms. Find shoes with good traction. Check the soles for deep rubber grooves. You should be able to wiggle your toes comfortably in these shoes. While you can buy specialized volleyball shoes, you don't have to unless you are a competitive player. Other types of court shoes, such as tennis or basketball shoes, are good substitutes. If you have long hair, you will want to keep it out of your face. You can put it in a ponytail or a French braid. A tight bun also works. Make sure that it is tight enough so it won't untangle or get in the way.  If you have shorter hair, you may opt for a headband to keep hair out of your eyes. Choose one that has elastic bands to keep it on your head even during rough play. Or, choose messy bun and wear a headband. A lot of people wear little skinny headbands or pre-wrap. Another cute things is tie big ribbon bows in your ponytail.""",
+        "summary": "Choose loose fitting shorts. Put on a sports bra. Wear a t-shirt or tank top. Find comfortable athletic shoes. Put up your hair up.",
     },
     {
-        "article": "PLACEHOLDER_TRAIN_ARTICLE_2",
-        "summary": "PLACEHOLDER_TRAIN_SUMMARY_2",
-    },
-    {
-        "article": "PLACEHOLDER_TRAIN_ARTICLE_3",
-        "summary": "PLACEHOLDER_TRAIN_SUMMARY_3",
+        "article": """When you're taking bust measurements, a bra will help lift your breasts, but make sure there's no extra padding to alter the size. If you don't have a non-padded bra, it's fine to take your measurement without a bra. Use a measuring tape to measure just beneath your bust. Keep the measuring tape level and pull it taut, but not tight enough to dig into your skin. If you get a fraction, round the measurement up to the next whole number. Add 4 to the measurement if it's an even number or 5 if it's an odd number. The resulting number is your band size. For instance,  if your under bust measurement is 31 inches, your band size will be 36. The fullest part of your breasts is usually around the nipple line. Make sure the tape measure is even and pull it so it is just tight enough to rest against you all the way around. Round the bust measurement up to the nearest whole number. For instance, if your bust measures 33.5 inches, round up to 34. The difference in your bust measurement and your under cup measurement will give you your cup size. Use the original under bust measurement, not your calculated band size. The difference between cup sizes is about an inch. If the difference between measurements is a 1, your cup size is A, if 2, it would be B and so on. In the case of the previous examples, you would subtract 31 from 34 to get 3, which would make your measurement a 36C.""",
+        "summary": "Put on a non-padded bra if you have one. Measure under your bust and calculate your band size. Measure around your bust at the fullest point. Subtract your under bust measurement from your bust size.",
     },
 ]
 
@@ -132,7 +132,7 @@ def run_prompt_variant(client, examples, prompt_fn, variant_name, max_tokens=100
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--n_examples", type=int, default=None, help="Limit test set size (default: use all)")
+    parser.add_argument("--n_examples", type=int, default=40, help="Limit test set size (default: use all)")
     args = parser.parse_args()
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

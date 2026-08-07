@@ -1,0 +1,82 @@
+[
+  {
+    "gem_id": "wikilingua_multilingual-test-127724",
+    "source": "\" You can do this by going to the Start menu, then selecting \"Control Panel,\" clicking \"Network and Internet,\" and then \"Internet Options.\" A drop down menu will appear where you may select \"Browsing History.\" From here choose \"Delete History\" and then \"OK.\" You will then be shown a window. Click \"OK.\"",
+    "reference": "open \" internet options . select the \" general \" tab . click on the \" history \" tab . close out of the window .",
+    "lstm_output": "open the \" . . . \" . . \" \" . . \" \" . . \" \" . \" \" .",
+    "llm_output": "To delete your browsing history, go to Start menu > Control Panel > Network and Internet > Internet Options, then select \"Browsing History\" from the dropdown menu. Click \"Delete History,\" then confirm by clicking \"OK\" twice.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-141722",
+    "source": "Feel your wrist to locate the knobby bones on either side of your arm and place your string on the side just above it. Wrap the string around your wrist until it\u2019s snug and mark where it overlaps the end. Straighten out the string and hold it against a ruler to find your measurement. Write the measurement down so you don\u2019t forget.  Don\u2019t add any additional length to your measurement. You can also ",
+    "reference": "measure your wrist circumference just above the bone . find your height using a tape measure or ruler . compare your wrist measurement to your height using a body frame size chart .",
+    "lstm_output": "place your hair . . the the . . the the . . the the . . the the . . the the . .",
+    "llm_output": "To determine your body frame size, measure your wrist circumference with a string or tape measure and your height while standing against a wall. Then compare these measurements using an online body frame size chart to determine if you have a small, medium, or large frame.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-121370",
+    "source": "In a large bowl, add cold water and ice cubes so that it fills up to the rim. Use plastic or metal tongs to remove them from the rice cooker, one by one. Immediately place them in the ice bath. Allow the eggs to completely cool in the ice bath. You can test them out by handling them with your fingers. Serve them immediately or store them in the refrigerator.",
+    "reference": "make an ice bath . remove the eggs from the rice cooker . serve or store them . finished .",
+    "lstm_output": "cut the the . . the the . . the the . . the the . .",
+    "llm_output": "After removing the eggs from the rice cooker, immediately place them in an ice bath using tongs and allow them to cool completely before serving or refrigerating.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-124084",
+    "source": "It's the orange app with a white cartoon alien in the center.  If you don't have the Reddit app you can download it from the App Store and sign in with your Reddit username and password. Tap the speech bubble icon below the post you want to comment on and then tap the reply button, or to start a new text post:  Tap \"Post something interesting\". Tap \"TEXT\" Tap \"Share your thoughts\" and type a title",
+    "reference": "open the reddit app . start a new text post or comment . type your first line . tap space twice after the first line . tap \u23ce return . type the second line . tap post or",
+    "lstm_output": "open the . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "llm_output": "To create a new line in a Reddit post or comment on the iPhone app, type two spaces followed by pressing the return key. After composing your text, tap the button in the upper-right corner to post it to Reddit.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-121282",
+    "source": "Most dishes will require you to cut up the tomatoes anyway. You can choose how large or small you want the chunks to be depending on what you are making. Note that smaller pieces will heat through more quickly. If you are going to add the tomatoes into another hot dish, you may not need to cook them for as long. If you cut bigger chunks, you may need to cook them a little longer. Be sure to watch ",
+    "reference": "cut the tomatoes into pieces . simmer the tomato chunks at medium heat for about 10 minutes . remove the pan from the burner and stir in 1 / 4 tsp of baking soda . add the rest",
+    "lstm_output": "place the the . . the the . . the the . . the the . . the the . . the the . .",
+    "llm_output": "Cut tomatoes into desired chunk sizes before cooking, keeping in mind that smaller pieces heat faster. Adding a small amount of baking soda while cooking can reduce the acidity of the tomatoes without altering the taste.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-130688",
+    "source": "Use a powerful vacuum to clean your carpets, rugs, and furniture. Move your furniture out of the way to clean the areas under and behind it. Vacuuming removes fleas, ticks, flea eggs, and tick eggs, so it\u2019s important not to skip this step.  Vacuum the pillows and cushions on your sofa. If possible, use the vacuum extension to clean the underside of your sofa and other soft furniture. Concentrate o",
+    "reference": "vacuum your home . wash your linens and clothes . sanitize corners and crevices .",
+    "lstm_output": "use your hair . . your . . . the . . . . . . . . . .",
+    "llm_output": "Thoroughly vacuum all carpets, furniture, and areas where pets spend time to remove fleas, ticks, and their eggs, then wash all linens and fabric items in hot water to eliminate any remaining pests.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-145711",
+    "source": "This is the quickest and best method, assuming that the chip is very small. If the chip is small, a dentist can simply smooth the rough area and perform other small necessary adjustments. Tooth recontouring can be completed in just one appointment. For small to moderate chips, a simple dental filling can fix the problem. This is more painful than having the tooth recontoured, but it can be done fo",
+    "reference": "consider getting your tooth <unk> . schedule an appointment for a dental filling . look into getting a dental crown for large chips . get the tooth removed .",
+    "lstm_output": "get a <unk> . . . . . . . . . . . . . . . .",
+    "llm_output": "Chipped teeth can be treated through various methods depending on severity, including recontouring, fillings, crowns, or extraction. Consult your dentist to determine the best treatment option for your specific situation.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-126088",
+    "source": "Because a handheld model relies on batter power, you will need to fully charge it before you begin the process of programming in frequencies.  You will also need to connect the antenna. Use the time while the scanner is charging to locate and write your list of frequencies, as you would if you were programming a base model. Press the button that is labeled \"Manual\" to manually enter frequencies.  ",
+    "reference": "charge the battery . put the scanner in manual programming mode . enter your frequencies . enter the frequency .",
+    "lstm_output": "open the . . . . . . . the . . . the . . . the . . . the . . . the . .",
+    "llm_output": "To program a handheld scanner, charge it fully, connect the antenna, and use the \"Manual\" button to enter a channel number and frequency digits via the keypad, then press \"E\" or \"Enter\" to store. A flashing display confirms successful storage, while a beep indicates the frequency is already stored elsewhere.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-125811",
+    "source": "MLB, NBA, NHL and NFL fans can sign up each season to stream the games.  You can access your subscription through the Roku, Apple TV or Chromecast. Sports fans will need to pay between $60 and $150 each year to gain access. You should do a cost analysis, if sports channels are already included in your cable plan. You can sign up for TED Talks, News services, old movie channels for free or very low",
+    "reference": "sign up for sports streaming online . shop for specialty channels on your streaming device's interface .",
+    "lstm_output": "find the <unk> . . the . . . . . . . . . . . . .",
+    "llm_output": "Sports fans can stream MLB, NBA, NHL, and NFL games through devices like Roku, Apple TV, or Chromecast for $60-$150 per year, though they should consider whether sports channels are already included in their cable plan. Many other channels, such as TED Talks and news services, are available for free or low cost, with specialty channel options varying by streaming device.",
+    "error_category": ""
+  },
+  {
+    "gem_id": "wikilingua_multilingual-test-133452",
+    "source": "From zombies to princesses, Halloween costumes fit right in for the Time Warp. The flashier and zanier the better, whether that's piles of pink ruffles and glitter, or skeleton face paint. One of the dancing characters from the Rocky Horror film version, Columbia, has the flashiest costume of all. Cover yourself in gold or rainbow sequins and glittery makeup to imitate her. Bonus points if you wea",
+    "reference": "wear a halloween costume . dress in glitter and sequins . dress with one of the simpler <unk> from the show . avoid stripes if you're going to a rocky horror show .",
+    "lstm_output": "get a <unk> . . . . . . . . . . . . . .",
+    "llm_output": "Halloween costumes are a great fit for the Time Warp dance, with flashier outfits being encouraged. Popular options include the sequin-covered Columbia, the demure Janet and Brad, though attendees should avoid wearing stripes, which is considered a faux pas at Rocky Horror Picture Show performances.",
+    "error_category": ""
+  }
+]

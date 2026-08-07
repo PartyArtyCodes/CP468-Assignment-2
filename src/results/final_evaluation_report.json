@@ -1,0 +1,26 @@
+{
+  "lstm_test_rouge": {
+    "rouge1": 0.13179455858213782,
+    "rouge2": 0.008217483091351584,
+    "rougeL": 0.12477642829317216
+  },
+  "lstm_n_examples": 500,
+  "llm_test_rouge_by_variant": {
+    "zero_shot": {
+      "rouge": {
+        "rouge1": 0.35810022830852534,
+        "rouge2": 0.10717264698570939,
+        "rougeL": 0.25339131289311856
+      },
+      "n_examples": 40
+    },
+    "few_shot": {
+      "rouge": {
+        "rouge1": 0.40118793863035923,
+        "rouge2": 0.14227955943377263,
+        "rougeL": 0.30676332795364664
+      },
+      "n_examples": 40
+    }
+  }
+}
