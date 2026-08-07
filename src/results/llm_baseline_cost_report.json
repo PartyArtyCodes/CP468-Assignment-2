@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "zero_shot",
+    "n_examples": 40,
+    "total_input_tokens": 11811,
+    "total_output_tokens": 2352,
+    "estimated_cost_usd": 0.0707
+  },
+  {
+    "variant": "few_shot",
+    "n_examples": 40,
+    "total_input_tokens": 58011,
+    "total_output_tokens": 1913,
+    "estimated_cost_usd": 0.2027
+  }
+]
