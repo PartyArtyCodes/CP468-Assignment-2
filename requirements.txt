@@ -1,0 +1,8 @@
+# Core dependencies for the LSTM vs. LLM summarization project.
+# Install with: python -m pip install -r requirements.txt
+
+torch==2.13.0
+datasets<4.0
+huggingface_hub<0.35
+rouge-score==0.1.2
+anthropic==0.120.2
